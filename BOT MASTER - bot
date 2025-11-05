@@ -1,0 +1,10 @@
+npm create vite@latest bot-master -- --template react
+cd bot-master
+# depois cole o src/App.jsx do canvas, ajuste main/index.css etc
+git init
+git add .
+git commit -m "MVP Bot Master"
+git branch -M main
+# criar repo no github e push (use seu URL)
+git remote add origin https://github.com/SEU_USER/SEU_REPO.git
+git push -u origin main
